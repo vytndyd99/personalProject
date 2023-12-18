@@ -10,7 +10,6 @@ import lombok.NoArgsConstructor;
 
 @Data
 @NoArgsConstructor
-@AllArgsConstructor
 @Entity(name = "task")
 public class Task {
     @Id
